@@ -1,4 +1,4 @@
-function fibonacciNumber = fiboRecursive(n)
+function fibonacciNumber = fiborRecursive(n)
     global count;
     if n == 1
         fibonacciNumber = 1;
@@ -6,6 +6,6 @@ function fibonacciNumber = fiboRecursive(n)
         fibonacciNumber = 2;
     else
         count = count + 1;
-        fibonacciNumber = fiboRecursive(n - 2) + fiboRecursive(n - 1);
+        fibonacciNumber = fiborRecursive(n - 2) + fiborRecursive(n - 1);
     end
 end
